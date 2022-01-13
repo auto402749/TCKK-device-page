@@ -1,0 +1,68 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap');
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: url("pexels-atbo-245240.jpg") no-repeat center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.query_window{
+    width: 900px;
+    height: 600px;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    h2{
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin: 30px 0;
+        letter-spacing: 15px;
+    }
+    .item{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+        .form{
+            width: 400px;
+            border: 5px dotted #fff;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+            h3{
+                font-size: 24px;
+                margin: 20px 10px;
+            }
+            .group{
+                margin-bottom: 20px;
+            }
+            label{
+                font-family: 'Noto Sans TC', sans-serif;
+                font-size: 18px;
+                line-height: 2;
+            }
+            input{
+                width: 100%;
+                border: 1px solid #aaa;
+                line-height: 3;
+                border-radius: 5px;
+                outline: none;
+            }
+        }
+        .result{
+            width: 400px;
+            border: 5px dotted #fff;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+        }
+    }
+
+
+}
+
